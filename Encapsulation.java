@@ -1,18 +1,17 @@
 class Human{
-    private int age;
-    private String name;
-    private String FatherName;
+    int age;
+    String name;
+    String FatherName;
 
-    void setAge(int age, Human obj){
-        Human obj1 = obj;
-        obj1.age = age;
+    void setAge(int a){
+        age = a;
     }
     int getAge(){
         return age;
     }
 
-    void setName(String name){
-        this.name = name;
+    void setName(String n){
+        name = n;
     }
     String getName(){
         return name;
@@ -24,16 +23,31 @@ class Human{
     String getFaterName(){
         return FatherName;
     }
+
+    public Human(){
+       age = 21;
+       name = "Harshita";
+       FatherName = "Trilok kumar";
+    }
+
+    public Human(int a , String n , String f){
+        age = a;
+        name = n;
+        FatherName = f;
+    }
 }
 public class Encapsulation{
-    public static void main(String agrs[]){
+    public static void main(String args[]){
+
         Human obj = new Human();
-        obj.setAge(31, obj);
-        obj.setName("Dolly");
-        obj.setFaterName("Trilok");
+        Human obj1 = new Human(21 , "Navin" , "Param");
 
+        // obj.setAge(31);
+        // obj.setName("kartika");
+        // obj.setFaterName("Trilok Kumar Rathore");
 
-        System.out.println(obj.getAge());
-        System.out.println(obj.getName());
+        System.out.println(obj.getAge() + " : " + obj.getName() + " : " + obj.getFaterName());
+        System.out.println(obj1.getAge() + " : " + obj1.getName() + " : " + obj1.getFaterName());
+
     }
 }
