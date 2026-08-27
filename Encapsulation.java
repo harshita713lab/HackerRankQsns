@@ -1,7 +1,7 @@
 class Human{
-    int age;
-    String name;
-    String FatherName;
+    private int age;
+    private String name;
+    private String FatherName;
 
     void setAge(int a){
         age = a;
