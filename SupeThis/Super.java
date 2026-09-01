@@ -1,3 +1,4 @@
+package SupeThis;
 class A extends Object{
     public A() {
         System.out.println("Hi, I am A");

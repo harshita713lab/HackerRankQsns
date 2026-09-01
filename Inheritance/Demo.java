@@ -1,3 +1,4 @@
+package Inheritance;
 public class Demo{
     public static void main(String[] args) {
         MultiLevelInheritance obj = new MultiLevelInheritance();

@@ -1,3 +1,4 @@
+package HackerrankQsn;
 import java.util.*;
 import java.io.*;
 public class Solution4{

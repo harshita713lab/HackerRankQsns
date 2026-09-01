@@ -1,3 +1,4 @@
+package Inheritance;
 
 public class Inheritance2 extends Calc{
      public int mul(int a , int b){
