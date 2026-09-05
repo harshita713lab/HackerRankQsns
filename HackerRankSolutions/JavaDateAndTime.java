@@ -1,8 +1,6 @@
 package HackerRankSolutions;
 
 import java.util.*;
-import java.io.*;
-import java.text.*;
 import java.util.Calendar;
 import java.util.Locale;
 

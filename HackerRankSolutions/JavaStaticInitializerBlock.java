@@ -1,8 +1,6 @@
 package HackerRankSolutions;
 
 import java.util.*;
-import java.io.*;
-
 public class JavaStaticInitializerBlock {
     static int B;
     static int H;
