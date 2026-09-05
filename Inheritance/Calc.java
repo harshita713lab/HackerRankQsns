@@ -1,10 +1,1 @@
-package Inheritance;
-class Calc{
-    public int add(int a , int b){
-        return a+b;
-    }
-    public int sub(int a , int b){
-        return a-b;
-    }
-}
-
+// This file has been renamed and moved to: Inheritance/BasicCalculator.java
